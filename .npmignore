@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+test/
+tmp/
+coverage/
+*.log
+.jshintrc
+.travis.yml
+gulpfile.js
+.idea/
+appveyor.yml
