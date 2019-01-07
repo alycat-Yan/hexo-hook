@@ -2,13 +2,19 @@
 
 'use strict';
 hexo.config.webhook = Object.assign({
-  port: 4000,
+  port: 8000,
   log: false,
   repository: [{
     url: undefined,
+    secret: undefined,
     local: 'source/_posts'
+  },
+  {
+    url: undefined,
+    secret: undefined,
+    local: 'themes'
   }],
-  path: undefined,
+  path: '/hook',
   header: true
 }, hexo.config.webhook);
 
