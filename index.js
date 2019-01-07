@@ -4,9 +4,7 @@
 hexo.config.webhook = Object.assign({
   port: 4000,
   log: false,
-  // `undefined` uses Node's default (try `::` with fallback to `0.0.0.0`)
   repository: [{
-    type: 'github',
     url: undefined,
     local: 'source/_posts'
   }],
