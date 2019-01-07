@@ -4,16 +4,15 @@
 hexo.config.webhook = Object.assign({
   port: 8000,
   log: false,
-  repository: [{
-    url: undefined,
-    secret: undefined,
-    local: 'source/_posts'
-  },
+  repository: {source: {
+    url: 'https://github.com/rvagg/github-webhook-handler.git',
+    secret: undefined
+  }, themes:
   {
     url: undefined,
-    secret: undefined,
-    local: 'themes'
-  }],
+    secret: undefined
+
+  }},
   path: '/hook',
   header: true
 }, hexo.config.webhook);

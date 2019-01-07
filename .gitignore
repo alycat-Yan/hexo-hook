@@ -6,3 +6,5 @@ tmp/
 .idea/
 coverage/
 *.iml
+*.sublime-project
+*.sublime-workspace
