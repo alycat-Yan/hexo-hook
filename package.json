@@ -1,13 +1,26 @@
 {
   "name": "hexo-hook",
   "version": "0.0.1",
-  "description": "WebHook module of Hexo.",
+  "description": "WebHook plugin of Hexo.",
   "private": false,
   "main": "index",
   "directories": {
     "lib": "./lib"
   },
+  "keywords": [
+    "plugin",
+    "hexo-plugin",
+    "hook-server"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alycat-Yan/hexo-hook.git"
+  },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alycat-Yan/hexo-hook/issues"
+  },
+  "homepage": "https://github.com/alycat-Yan/hexo-hook#readme",
   "dependencies": {
     "hexo": "^3.7.0",
     "cross-spawn": "^6.0.5",
