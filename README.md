@@ -28,6 +28,8 @@ webhook:
       secret: '123'
 
 ```
+**url** is your github repository url. For now it only support github webhook.
+
 **sub** is the path which your markdown files exist.
 
 **secret** is the secret you set in webhook config page. 
