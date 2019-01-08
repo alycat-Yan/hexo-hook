@@ -10,13 +10,6 @@ hexo.config.webhook = Object.assign({
       sub: '/test',
       secret: undefined
     }
-  // not ready
-  // , themes:
-  // {
-  //   url: undefined,
-  //   sub:'',
-  //   secret: undefined
-  // }
   },
   path: '/hook'
 }, hexo.config.webhook);
