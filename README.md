@@ -2,17 +2,21 @@
 
 **hexo-hook** is a hexo plugin to listen webhook push event to update locate files and generate static files in public folder.
 
-If your hexo included hexo-server, this plugin use the same port in server config. The default http port of hexo-hook is 8000.
+If your hexo included hexo-server, this plugin use the same port in server config. The default http port of hexo-hook is 8000. For now hexo-hook only can  receive the json content event.
+hexo-hook will pull the master branch  when receive the request from github.  
 
-hexo-hook will pull the master branch from github. Please remove the posts folder under your hexo root path if you change the repository url in _config.yml.
+After start hexo with this plugin, you can add webhook in Github like this: 
+```https://your.domain.com:8000/hook```  
+
+Please remove the posts folder under your hexo root path if you change the repository url in _config.yml.
 
 ## Install
-```shell
+​```shell
 $ npm install hexo-hook --save
 ```
 
 ## Usage
-```shell
+​```shell
 hexo hook 
 ```
 

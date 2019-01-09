@@ -6,7 +6,7 @@ hexo.config.webhook = Object.assign({
   log: false,
   repository: {
     source: {
-      url: 'https://github.com/senchalabs/connect.git',
+      url: 'https://github.com/alycat-Yan/hexo-hook-sample.git',
       sub: '/test',
       secret: undefined
     }
