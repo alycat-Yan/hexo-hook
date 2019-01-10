@@ -11,12 +11,12 @@ After start hexo with this plugin, you can add webhook in Github like this:
 Please remove the posts folder under your hexo root path if you change the repository url in _config.yml.
 
 ## Install
-​```shell
+```shell
 $ npm install hexo-hook --save
 ```
 
 ## Usage
-​```shell
+```shell
 hexo hook 
 ```
 
